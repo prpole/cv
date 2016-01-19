@@ -1,0 +1,182 @@
+%%% A template to produce a nice-looking Curriculum Vitae.
+%%%
+%%% Based on design by Kieran Healy <kjhealy@gmail.com>
+%%% With Pandoc-specific tweaks by Caleb McDaniel <caleb.mcdaniel@rice.edu>
+%%% Most recent version of his is at http://kjhealy.github.com/kjh-vita
+%%%
+%%% This template differs from Healy's by using the marginnote package to make
+%%% section titles and using titlesec package to aid the conversion of a
+%%% markdown file to PDF using pandoc and this template. An advantage of this
+%%% approach is that it requires less manual tweaking of spaces. A disadvantage is
+%%% that section titles must be short: a section title longer than "Publications"
+%%% could cause spacing problems.
+
+\documentclass[11pt]{article}
+
+%%%------------------------------------------------------------------------
+%%% Metadata
+%%%------------------------------------------------------------------------
+
+%%% Change with your own information
+\def\myauthor{Phillip R. Polefrone}
+\def\mytitle{Vita}
+\def\mycopyright{\myauthor}
+\def\mykeywords{}
+\def\mybibliostyle{plain}
+\def\mybibliocommand{}
+\def\mysubtitle{}
+\def\myaffiliation{Columbia University}
+\def\myaddress{Department of English and Comparative Literature}
+\def\myemail{pp2454@columbia.edu}
+\def\myweb{http://prpole.github.io}
+\def\myphone{(347) 939-9556}
+\def\myfax{(347) 939-9556}
+\def\myversion{}
+\def\myrevision{}
+\def\mykeywords{Polefrone, Phil, Phillip, Phillip Wythoff, Phillip R. Polefrone, American literature, Vita, CV}
+
+
+%%%------------------------------------------------------------------------
+%%% Required style files
+%%%------------------------------------------------------------------------
+
+%% hyphens option allows hyperlinks to line break at hyphens
+\usepackage[hyphens]{url}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\frenchspacing
+
+%% needed for xelatex to work
+\usepackage{fontspec}
+\usepackage{xunicode}
+
+%% color for the links 
+\usepackage[usenames,dvipsnames]{color}
+
+%% hyperlinks
+\usepackage[xetex, 
+	colorlinks=false,
+	breaklinks=true,
+	urlcolor=Blue,
+	plainpages=false,
+  	pdfpagelabels,
+  	bookmarksnumbered,
+  	pdftitle={\mytitle},
+  	pagebackref,
+  	pdfauthor={\myauthor},
+  	pdfkeywords={\mykeywords}
+  	]{hyperref}
+
+\usepackage{marginnote}
+
+\usepackage[explicit]{titlesec}
+\titleformat{\subsection}[block]{\small}{}{0em}{\marginnote{\textsf{ #1}}}{}
+\titleformat{\subsubsection}[hang]{}{}{0em}{\smallskip\noindent\emph{ #1}}{}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}
+
+
+%%%------------------------------------------------------------------------
+%%% Document
+%%%------------------------------------------------------------------------
+
+\begin{document}
+
+%% Choose fonts for use with xelatex
+\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Palatino} 
+\setsansfont[Mapping=tex-text]{Optima Bold}
+\setmonofont[Mapping=tex-text,Scale=0.9]{Optima} 
+
+
+%%%------------------------------------------------------------------------
+%%% Local commands
+%%%------------------------------------------------------------------------
+
+%% custom ampersand (font consistent with the one chosen above)
+%% \newcommand{\amper}{{\fontspec[Scale=.95,Colour=AA0000]{Baskerville}\selectfont\&\,}}
+
+%% No bullets on labels
+\renewcommand{\labelitemi}{~} 
+
+%% Custom hanging indent for vita items
+\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
+
+\def\labelitemi{~}
+\renewcommand{\labelitemii}{~}
+
+%%%------------------------------------------------------------------------
+%%% Page layout
+%%%------------------------------------------------------------------------
+\thispagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+%%% The next line will put the date revised in footer of first page
+\rfoot{\texttt{\scriptsize Current as of \today}} 
+\widowpenalty=2000
+\clubpenalty=2000
+
+%%%------------------------------------------------------------------------
+%%% Address and contact block
+%%%------------------------------------------------------------------------
+\begin{minipage}[t]{2.95in}
+ \flushright {\footnotesize \href{http://english.columbia.edu/}{Department of English and Comparative Literature} \\ Columbia University \\ 602 Philosophy Hall, MC4927 \\ \vspace{-0.05in} New York, NY 10027}  
+  
+\end{minipage}
+\hfill     
+%\begin{minipage}[t]{0.0in}
+% dummy (needed here)
+%\end{minipage}
+\hfill
+\begin{minipage}[t]{1.7in}
+  \flushright \footnotesize Phone: \myphone \\ 
+  %Fax: \myfax  \\ 
+  {\scriptsize  \texttt{\href{mailto:\myemail}{\myemail}}} \\
+  \vspace{-0.1em}{\scriptsize  \texttt{\href{\myweb}{\myweb}}} 
+\end{minipage}
+
+%% Name 
+\bigskip\bigskip\medskip
+\noindent{\huge\textsf{Phillip R. Polefrone}}
+\reversemarginpar
+\bigskip 
+
+%% Education
+\section*{Education}
+
+\subsubsection{Columbia University}
+
+Ph.D. Candidate, English Literature (2013–Present)
+ 
+\smallskip
+
+M.A., English and Comparative Literature, 2014.
+
+\smallskip
+
+Certificate, Columbia Publishing Course, School of Journalism, 2012.
+
+\medskip
+
+\subsubsection{New York University}
+
+B.A., English and American Literature, 2012. \emph{Magna Cum Laude} %\vspace{0.01in}
+
+\medskip
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+\tableofcontents
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+
+$endfor$
+
+\end{document}
