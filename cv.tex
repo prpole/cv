@@ -46,6 +46,10 @@
 \pagestyle{plain}
 \frenchspacing
 
+
+\providecommand{\tightlist}{%
+    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 %% needed for xelatex to work
 \usepackage{fontspec}
 \usepackage{xunicode}
@@ -69,6 +73,8 @@
 
 \usepackage{marginnote}
 
+\usepackage[rmargin=1in, lmargin=1.5in]{geometry}
+
 \usepackage[explicit]{titlesec}
 \titleformat{\subsection}[block]{\small}{}{0em}{\marginnote{\textsf{ #1}}}{}
 \titleformat{\subsubsection}[hang]{}{}{0em}{\smallskip\noindent\emph{ #1}}{}
@@ -83,9 +89,10 @@
 \begin{document}
 
 %% Choose fonts for use with xelatex
-\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Palatino} 
-\setsansfont[Mapping=tex-text]{Optima Bold}
-\setmonofont[Mapping=tex-text,Scale=0.9]{Optima} 
+\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{TeX Gyre Pagella} 
+\setsansfont[Mapping=tex-text]{TeX Gyre Termes Bold}
+\setmonofont[Mapping=tex-text,Scale=0.9]{TeX Gyre Termes} 
+
 
 
 %%%------------------------------------------------------------------------
@@ -120,7 +127,7 @@
 %%% Address and contact block
 %%%------------------------------------------------------------------------
 \begin{minipage}[t]{2.95in}
- \flushright {\footnotesize \href{http://english.columbia.edu/}{Department of English and Comparative Literature} \\ Columbia University \\ 602 Philosophy Hall, MC4927 \\ \vspace{-0.05in} New York, NY 10027}  
+ \flushleft {\footnotesize \href{http://english.columbia.edu/}{Department of English and Comparative Literature} \\ Columbia University \\ 602 Philosophy Hall, MC4927 \\ \vspace{-0.05in} New York, NY 10027}  
   
 \end{minipage}
 \hfill     
@@ -147,7 +154,11 @@
 \subsubsection{Columbia University}
 
 Ph.D. Candidate, English Literature (2013–Present)
- 
+
+\smallskip
+
+M.Phil., English and Comparative Literature, 2016.
+
 \smallskip
 
 M.A., English and Comparative Literature, 2014.
