@@ -3,7 +3,7 @@
 ## Articles 
 
 \ind "The Importance of the 'Steady State'." *Politics Slash Letters Live*. 1 
-Dec. 2017. [(link)](http://www.publicbooks.org/rising-tides-rising-profits/)
+Dec. 2017. [(link)](http://politicsslashletters.live/reviews/importance-steady-state/)
 
 \ind "Rising Tides, Rising Profits." *Public Books*. 27 June 2017. [(link)](http://www.publicbooks.org/rising-tides-rising-profits/)
 
