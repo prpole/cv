@@ -1,28 +1,9 @@
-# Grants and Awards {-}
-
-## 2017
-
-\ind Archival Research Funding from the Department of English and Comparative
-Literature, Columbia University
-
-> Awarded funding to attend the Jack London Collection at the Huntington
-Library in Pasadena, California.
-
-## 2015
-
-\ind SIPA and Carnegie Corporation of New York Grant for Doctoral Student Research on Internet Policy
-
-> Awarded funding for research into semantic patterns in online harassment of feminist activists. Using a corpus of thousands of tweets using the "gamergate" hashtag, considered the applicability of semantic categorization tools in characterizing online disputes.
-
-## 2014
-
-\ind _Robert John Bennett Memorial Award_ 
-
-> Awarded to the best Masters Essay on a comparative or interdisciplinary topic; "Gilman's Garden: Ecological Economy, Coevolution, and Utopian Naturalism in *Herland*", 2014.
-
 # Publications {-}
 
 ## Articles 
+
+\ind "The Importance of the 'Steady State'." *Politics Slash Letters Live*. 1 
+Dec. 2017. [(link)](http://www.publicbooks.org/rising-tides-rising-profits/)
 
 \ind "Rising Tides, Rising Profits." *Public Books*. 27 June 2017. [(link)](http://www.publicbooks.org/rising-tides-rising-profits/)
 
@@ -51,6 +32,28 @@ Time" panel, hosted by the Charlotte Perkins Gilman Society.
 
 > Presented a platform (in development) that expedites literary mapping using
 a combination of automated and human toponym resolution techniques.
+
+# Grants and Awards {-}
+
+## 2017
+
+\ind Archival Research Funding from the Department of English and Comparative
+Literature, Columbia University
+
+> Awarded funding to attend the Jack London Collection at the Huntington
+Library in Pasadena, California.
+
+## 2015
+
+\ind SIPA and Carnegie Corporation of New York Grant for Doctoral Student Research on Internet Policy
+
+> Awarded funding for research into semantic patterns in online harassment of feminist activists. Using a corpus of thousands of tweets using the "gamergate" hashtag, considered the applicability of semantic categorization tools in characterizing online disputes.
+
+## 2014
+
+\ind _Robert John Bennett Memorial Award_ 
+
+> Awarded to the best Masters Essay on a comparative or interdisciplinary topic; "Gilman's Garden: Ecological Economy, Coevolution, and Utopian Naturalism in *Herland*", 2014.
 
 #Teaching Positions {-}
 
