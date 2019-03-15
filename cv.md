@@ -1,6 +1,19 @@
-# Publications {-}
+# Articles and Chapters {-}
 
-## Articles 
+## Published and Forthcoming
+
+\ind "Ecology without Us: Ecological Succession and History in *Earth Abides*." *Extrapolation* 59.3. (Forthcoming)
+
+\ind _"Critical Computing in the Humanities,"_ with Dennis Tenen and John
+Simpson. *Doing Digital Humanities*. London: Routledge, 2016. Print. [(link)](https://www.routledge.com/Doing-Digital-Humanities-Practice-Training-Research/Crompton-Lane-Siemens/p/book/9781138899445)
+
+## Under Review
+
+\ind "Gilman's Garden: *Herland*'s Economics of a 'Good' Anthropocene." *ISLE: Interdisciplinary Studies in Literature and Environment*.
+
+# Public Writing and Reviews {-}
+
+\ind "Rewriting Finance's Fiction." *Politics Slash Letters*. 28 May 2018. [(link)](http://politicsslashletters.org/rewriting-finances-fiction/)
 
 \ind "The Importance of the 'Steady State'." *Politics Slash Letters Live*. 1 
 Dec. 2017. [(link)](http://politicsslashletters.live/reviews/importance-steady-state/)
@@ -11,11 +24,6 @@ Dec. 2017. [(link)](http://politicsslashletters.live/reviews/importance-steady-s
 \ind "Regreening Technology: Gestures Beyond Prometheanism in Kim Stanley
 Robinson's *Mars Trilogy*." *Politics Slash Letters*. 27 June 2016.
 [(link)](http://politicsslashletters.org/2016/06/polefrone_robinson/)
-
-## Chapters
-
-\ind _"Critical Computing in the Humanities,"_ with Dennis Tenen and John
-Simpson. *Doing Digital Humanities*. London: Routledge, 2016. Print. [(link)](https://www.routledge.com/Doing-Digital-Humanities-Practice-Training-Research/Crompton-Lane-Siemens/p/book/9781138899445)
 
 # Talks {-}
 
